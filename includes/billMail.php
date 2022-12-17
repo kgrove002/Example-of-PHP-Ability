@@ -28,7 +28,7 @@ function sendBill($toMail, $prefix, $name, $payment, $bill) {
 
     $mail->IsHTML(TRUE);
     $mail->AddAddress($toMail, $name);
-    $mail->SetFrom("bqcritken@gmail.com", "Kevin Grove");
+    $mail->SetFrom("/*Your From Email*/", "/*Your Name*/");
     $mail->Subject = "Thank you for your payment!";
     $content = "Hello ".$prefix.". ".$name.",<br>Thank you for your payment of $".$payment.".<br> Your remaining blance is $".$bill.".";
 
