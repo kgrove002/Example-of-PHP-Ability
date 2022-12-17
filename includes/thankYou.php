@@ -31,7 +31,7 @@ function sendThankYou($toMail, $prefix, $name) {
 
     $mail->IsHTML(TRUE);
     $mail->AddAddress($toMail, $name);
-    $mail->SetFrom("bqcritken@gmail.com", "Kevin Grove");
+    $mail->SetFrom("/*Your From Email*/", "/*Your Name*/");
     $mail->Subject = "Thank you for your payment!";
     $content = "Hello ".$prefix.". ".$name.",<br>Thank you for paying off your bill with us. We hope to hear from you again soon!";
 
