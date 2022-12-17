@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Lato, Arial, sans-serif;
+  color: black;
+}
+/* Header css */
+header {
+  text-align: center;
+  background-color: green;
+  font-size: 38px;
+  padding-bottom: 50px;
+}
+
+nav li {
+  display: inline;
+  padding-right: 25px;
+  list-style: none;
+  font-size: 25px;
+}
+
+nav li a {
+  color: white;
+}
+
+nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 25%;
+  margin-left: 35%;
+  margin-right: 55%;
+}
+
+.header {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 43px;
+  margin-top: 35px;
+}
+input:focus {
+  border: 2px solid #900;
+}
+
+.form {
+  font-size: 25px;
+  padding-left: 700px;
+  padding-top: 50px;
+}
+
+/* View tab CSS */
+
+.search {
+  margin-left: 500px;
+}
+
+.submit-form {
+  padding-left: 700px;
+}
+
+td {
+  padding: 25px;
+}
+
+form button {
+  width: 300px;
+}
