@@ -1,2 +1,2 @@
 # Example-of-PHP-Ability
-This is a sample of my knowledge in PHP and SQL.
+This is a basic customer managing application that helps manage customer and customer orders. 
